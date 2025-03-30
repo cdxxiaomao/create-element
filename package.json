@@ -1,6 +1,6 @@
 {
   "name": "poohou-create-element",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "创建dom与ast转dom方法",
   "main": "dist/index.es.js",
   "module": "dist/index.es.js",
