@@ -5,7 +5,7 @@
 
 ## 示例
 ```typescript
-import {astToNode, createElement} from ".poohou-create-element";
+import {astToNode, createElement} from "poohou-create-element";
 
 astToNode({
    tagName: 'div',
