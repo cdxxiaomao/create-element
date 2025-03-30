@@ -1,7 +1,7 @@
 {
-  "name": "base-vite-vue-ts-eslint-husky",
-  "version": "1.0.0",
-  "description": "vite+vue+ts+less+eslint+husky基础环境",
+  "name": "poohou-create-element",
+  "version": "0.0.0",
+  "description": "创建dom与ast转dom方法",
   "main": "dist/index.es.js",
   "module": "dist/index.es.js",
   "typings": "dist/lib/index.d.ts",
@@ -13,7 +13,7 @@
     "release-minor": "standard-version --release-as minor",
     "release-patch": "standard-version --release-as patch",
     "lib:publish": "node publish.js",
-    "release-tag": "node build/release.js && npm run lib:publish",
+    "release-tag": "npm run build && node build/release.js && npm run lib:publish",
     "prepare": "husky install",
     "copy-changelog": "node ./build/copyChangelog.js",
     "docs:dev": "vitepress dev docs",
@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://gitee.com/xxiaomao/base-vite-vue-ts-eslint-husky.git"
+    "url": "https://github.com/cdxxiaomao/create-element.git"
   },
   "keywords": [],
   "author": "",
